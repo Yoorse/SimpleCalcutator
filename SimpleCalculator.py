@@ -1,6 +1,6 @@
 from Choose_Calculation import *
 
-
+##change so you only can choose 1-5 integers!
 while Calculator:
     print("1. Addition")
     print("2. Subtraction")
