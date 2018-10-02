@@ -1,3 +1,5 @@
+##Definitions of calculations
+
 from Force_Integer import *
 
 Calculator = True

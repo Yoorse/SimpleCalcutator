@@ -1,3 +1,5 @@
+##This forces the user to use numbers
+
 def Input(message):
     while True:
         try:
