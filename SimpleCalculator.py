@@ -8,7 +8,7 @@ while Calculator:
     print("4. Division")
     print("5. Quit")
 
-    cmd = int(input("Enter Your Choice from 1 to 5:  "))
+    cmd = int(choose("Enter Your Choice from 1 to 5:  "))
 
     if cmd == 1:
         add()

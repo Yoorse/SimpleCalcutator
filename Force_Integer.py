@@ -15,21 +15,18 @@ def Input(message):
 
 
 def choose(message):
-
-    print("1. Addition")
-    print("2. Subtraction")
-    print("3. Multiplication")
-    print("4. Division")
-    print("5. Quit")
-
     while True:
         try:
-            calculate = int(input(message))
+            UserInput = int(input(message))
         except ValueError:
-            if calculate > 5:
-                print("Choose 1-5")
-
+            print("Type a number between 1-5!")
+            continue
         else:
-            return calculate
+            return UserInput
             break
+
+
+
+
+
 
