@@ -7,7 +7,7 @@ def Input(message):
         try:
             UserInput = int(input(message))
         except ValueError:
-            print("Type a number!")
+            print("Please type a number")
             continue
         else:
             return UserInput
@@ -19,7 +19,7 @@ def choose(message):
         try:
             UserInput = int(input(message))
         except ValueError:
-            print("Type a number between 1-5!")
+            print("Please type a number between 1-5")
             continue
         else:
             return UserInput
