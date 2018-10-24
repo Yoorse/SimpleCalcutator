@@ -47,6 +47,6 @@ def div():
 
 
 def quit():
-    print("Quit!")
+    print("Quit")
 
 
