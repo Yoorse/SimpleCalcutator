@@ -5,7 +5,7 @@ def Input(message):
 
     while True:
         try:
-            UserInput = int(Input(message))
+            UserInput = int(input(message))
         except ValueError:
             print("Please type a number")
             continue
@@ -17,14 +17,13 @@ def Input(message):
 def choose(message):
     while True:
         try:
-            UserInput = int(Input(message))
+            UserInput = int(input(message))
         except ValueError:
             print("Please type a number between 1-5")
             continue
         else:
             return UserInput
             break
-
 
 
 
